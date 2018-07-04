@@ -13,6 +13,7 @@
 		9C1B4A0120ED20A00009127F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1B4A0020ED20A00009127F /* Assets.xcassets */; };
 		9C1B4A0420ED20A00009127F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1B4A0220ED20A00009127F /* LaunchScreen.storyboard */; };
 		9C1B4A0720ED20A00009127F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B4A0620ED20A00009127F /* main.m */; };
+		9C1B4A0F20ED20C70009127F /* ZYFCollectionHeaderLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B4A0E20ED20C70009127F /* ZYFCollectionHeaderLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9C1B4A0320ED20A00009127F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C1B4A0520ED20A00009127F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C1B4A0620ED20A00009127F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C1B4A0D20ED20C70009127F /* ZYFCollectionHeaderLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFCollectionHeaderLayout.h; sourceTree = "<group>"; };
+		9C1B4A0E20ED20C70009127F /* ZYFCollectionHeaderLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFCollectionHeaderLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				9C1B49F720ED20A00009127F /* AppDelegate.h */,
 				9C1B49F820ED20A00009127F /* AppDelegate.m */,
+				9C1B4A0D20ED20C70009127F /* ZYFCollectionHeaderLayout.h */,
+				9C1B4A0E20ED20C70009127F /* ZYFCollectionHeaderLayout.m */,
 				9C1B49FA20ED20A00009127F /* ViewController.h */,
 				9C1B49FB20ED20A00009127F /* ViewController.m */,
 				9C1B49FD20ED20A00009127F /* Main.storyboard */,
@@ -143,6 +148,7 @@
 			files = (
 				9C1B49FC20ED20A00009127F /* ViewController.m in Sources */,
 				9C1B4A0720ED20A00009127F /* main.m in Sources */,
+				9C1B4A0F20ED20C70009127F /* ZYFCollectionHeaderLayout.m in Sources */,
 				9C1B49F920ED20A00009127F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
