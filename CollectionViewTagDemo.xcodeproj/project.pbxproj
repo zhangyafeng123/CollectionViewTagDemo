@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EC19AB6B37C16EC92ABDA2D /* libPods-CollectionViewTagDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 201BBE10BD2CA56EB15CCEA5 /* libPods-CollectionViewTagDemo.a */; };
 		9C1B49F920ED20A00009127F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B49F820ED20A00009127F /* AppDelegate.m */; };
 		9C1B49FC20ED20A00009127F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B49FB20ED20A00009127F /* ViewController.m */; };
 		9C1B49FF20ED20A00009127F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1B49FD20ED20A00009127F /* Main.storyboard */; };
@@ -14,9 +15,19 @@
 		9C1B4A0420ED20A00009127F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1B4A0220ED20A00009127F /* LaunchScreen.storyboard */; };
 		9C1B4A0720ED20A00009127F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B4A0620ED20A00009127F /* main.m */; };
 		9C1B4A0F20ED20C70009127F /* ZYFCollectionHeaderLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B4A0E20ED20C70009127F /* ZYFCollectionHeaderLayout.m */; };
+		9C1B4A1320EDC3D70009127F /* DCFeatureItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B4A1220EDC3D70009127F /* DCFeatureItemCell.m */; };
+		9C1B4A1620EDC3FB0009127F /* DCFeatureList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B4A1420EDC3FA0009127F /* DCFeatureList.m */; };
+		9C1B4A1920EDC40D0009127F /* DCFeatureItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B4A1820EDC40C0009127F /* DCFeatureItem.m */; };
+		9C1B4A1C20EDC44B0009127F /* DCSpeedy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B4A1A20EDC44A0009127F /* DCSpeedy.m */; };
+		9C1B4A1F20EDC5A20009127F /* UIView+DCRolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B4A1E20EDC5A20009127F /* UIView+DCRolling.m */; };
+		9C1B4A2220EDC6270009127F /* DCFeatureHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B4A2120EDC6270009127F /* DCFeatureHeaderView.m */; };
+		9C1B4A2520EDC6460009127F /* DCFeatureTitleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B4A2420EDC6460009127F /* DCFeatureTitleItem.m */; };
+		9C1B4A2720EDC7D60009127F /* ShopItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C1B4A2620EDC7D60009127F /* ShopItem.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		201BBE10BD2CA56EB15CCEA5 /* libPods-CollectionViewTagDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CollectionViewTagDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		440C942EA110FBF5E25E782D /* Pods-CollectionViewTagDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewTagDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionViewTagDemo/Pods-CollectionViewTagDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9C1B49F420ED209F0009127F /* CollectionViewTagDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewTagDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1B49F720ED20A00009127F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C1B49F820ED20A00009127F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +40,23 @@
 		9C1B4A0620ED20A00009127F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9C1B4A0D20ED20C70009127F /* ZYFCollectionHeaderLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFCollectionHeaderLayout.h; sourceTree = "<group>"; };
 		9C1B4A0E20ED20C70009127F /* ZYFCollectionHeaderLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFCollectionHeaderLayout.m; sourceTree = "<group>"; };
+		9C1B4A1020EDAFF80009127F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9C1B4A1120EDC3D60009127F /* DCFeatureItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFeatureItemCell.h; sourceTree = "<group>"; };
+		9C1B4A1220EDC3D70009127F /* DCFeatureItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFeatureItemCell.m; sourceTree = "<group>"; };
+		9C1B4A1420EDC3FA0009127F /* DCFeatureList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFeatureList.m; sourceTree = "<group>"; };
+		9C1B4A1520EDC3FB0009127F /* DCFeatureList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFeatureList.h; sourceTree = "<group>"; };
+		9C1B4A1720EDC40A0009127F /* DCFeatureItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFeatureItem.h; sourceTree = "<group>"; };
+		9C1B4A1820EDC40C0009127F /* DCFeatureItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFeatureItem.m; sourceTree = "<group>"; };
+		9C1B4A1A20EDC44A0009127F /* DCSpeedy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSpeedy.m; sourceTree = "<group>"; };
+		9C1B4A1B20EDC44B0009127F /* DCSpeedy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSpeedy.h; sourceTree = "<group>"; };
+		9C1B4A1D20EDC5A10009127F /* UIView+DCRolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DCRolling.h"; sourceTree = "<group>"; };
+		9C1B4A1E20EDC5A20009127F /* UIView+DCRolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCRolling.m"; sourceTree = "<group>"; };
+		9C1B4A2020EDC6260009127F /* DCFeatureHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFeatureHeaderView.h; sourceTree = "<group>"; };
+		9C1B4A2120EDC6270009127F /* DCFeatureHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFeatureHeaderView.m; sourceTree = "<group>"; };
+		9C1B4A2320EDC6450009127F /* DCFeatureTitleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFeatureTitleItem.h; sourceTree = "<group>"; };
+		9C1B4A2420EDC6460009127F /* DCFeatureTitleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFeatureTitleItem.m; sourceTree = "<group>"; };
+		9C1B4A2620EDC7D60009127F /* ShopItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShopItem.plist; sourceTree = "<group>"; };
+		C22BDFE7C2C5664EC9020887 /* Pods-CollectionViewTagDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewTagDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionViewTagDemo/Pods-CollectionViewTagDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC19AB6B37C16EC92ABDA2D /* libPods-CollectionViewTagDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +76,8 @@
 			children = (
 				9C1B49F620ED209F0009127F /* CollectionViewTagDemo */,
 				9C1B49F520ED209F0009127F /* Products */,
+				D3A7DAD892C2DE37D6239FB3 /* Pods */,
+				E50C82156B4754C5AD3FE8A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +98,22 @@
 				9C1B4A0E20ED20C70009127F /* ZYFCollectionHeaderLayout.m */,
 				9C1B49FA20ED20A00009127F /* ViewController.h */,
 				9C1B49FB20ED20A00009127F /* ViewController.m */,
+				9C1B4A1720EDC40A0009127F /* DCFeatureItem.h */,
+				9C1B4A1820EDC40C0009127F /* DCFeatureItem.m */,
+				9C1B4A1D20EDC5A10009127F /* UIView+DCRolling.h */,
+				9C1B4A1E20EDC5A20009127F /* UIView+DCRolling.m */,
+				9C1B4A2320EDC6450009127F /* DCFeatureTitleItem.h */,
+				9C1B4A2420EDC6460009127F /* DCFeatureTitleItem.m */,
+				9C1B4A2020EDC6260009127F /* DCFeatureHeaderView.h */,
+				9C1B4A2120EDC6270009127F /* DCFeatureHeaderView.m */,
+				9C1B4A1520EDC3FB0009127F /* DCFeatureList.h */,
+				9C1B4A1420EDC3FA0009127F /* DCFeatureList.m */,
+				9C1B4A1B20EDC44B0009127F /* DCSpeedy.h */,
+				9C1B4A1A20EDC44A0009127F /* DCSpeedy.m */,
+				9C1B4A1120EDC3D60009127F /* DCFeatureItemCell.h */,
+				9C1B4A1220EDC3D70009127F /* DCFeatureItemCell.m */,
+				9C1B4A2620EDC7D60009127F /* ShopItem.plist */,
+				9C1B4A1020EDAFF80009127F /* PrefixHeader.pch */,
 				9C1B49FD20ED20A00009127F /* Main.storyboard */,
 				9C1B4A0020ED20A00009127F /* Assets.xcassets */,
 				9C1B4A0220ED20A00009127F /* LaunchScreen.storyboard */,
@@ -76,6 +123,23 @@
 			path = CollectionViewTagDemo;
 			sourceTree = "<group>";
 		};
+		D3A7DAD892C2DE37D6239FB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				440C942EA110FBF5E25E782D /* Pods-CollectionViewTagDemo.debug.xcconfig */,
+				C22BDFE7C2C5664EC9020887 /* Pods-CollectionViewTagDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E50C82156B4754C5AD3FE8A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				201BBE10BD2CA56EB15CCEA5 /* libPods-CollectionViewTagDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C1B4A0A20ED20A00009127F /* Build configuration list for PBXNativeTarget "CollectionViewTagDemo" */;
 			buildPhases = (
+				7C685188A151353E96EA8B5F /* [CP] Check Pods Manifest.lock */,
 				9C1B49F020ED209F0009127F /* Sources */,
 				9C1B49F120ED209F0009127F /* Frameworks */,
 				9C1B49F220ED209F0009127F /* Resources */,
+				A8D4E062A4FE9CB89BF29524 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,12 +200,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C1B4A0420ED20A00009127F /* LaunchScreen.storyboard in Resources */,
+				9C1B4A2720EDC7D60009127F /* ShopItem.plist in Resources */,
 				9C1B4A0120ED20A00009127F /* Assets.xcassets in Resources */,
 				9C1B49FF20ED20A00009127F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C685188A151353E96EA8B5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollectionViewTagDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D4E062A4FE9CB89BF29524 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CollectionViewTagDemo/Pods-CollectionViewTagDemo-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollectionViewTagDemo/Pods-CollectionViewTagDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C1B49F020ED209F0009127F /* Sources */ = {
@@ -148,8 +254,15 @@
 			files = (
 				9C1B49FC20ED20A00009127F /* ViewController.m in Sources */,
 				9C1B4A0720ED20A00009127F /* main.m in Sources */,
+				9C1B4A1920EDC40D0009127F /* DCFeatureItem.m in Sources */,
 				9C1B4A0F20ED20C70009127F /* ZYFCollectionHeaderLayout.m in Sources */,
+				9C1B4A1320EDC3D70009127F /* DCFeatureItemCell.m in Sources */,
 				9C1B49F920ED20A00009127F /* AppDelegate.m in Sources */,
+				9C1B4A1C20EDC44B0009127F /* DCSpeedy.m in Sources */,
+				9C1B4A1F20EDC5A20009127F /* UIView+DCRolling.m in Sources */,
+				9C1B4A1620EDC3FB0009127F /* DCFeatureList.m in Sources */,
+				9C1B4A2220EDC6270009127F /* DCFeatureHeaderView.m in Sources */,
+				9C1B4A2520EDC6460009127F /* DCFeatureTitleItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +400,11 @@
 		};
 		9C1B4A0B20ED20A00009127F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440C942EA110FBF5E25E782D /* Pods-CollectionViewTagDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CollectionViewTagDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = CollectionViewTagDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,9 +418,11 @@
 		};
 		9C1B4A0C20ED20A00009127F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22BDFE7C2C5664EC9020887 /* Pods-CollectionViewTagDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CollectionViewTagDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = CollectionViewTagDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
